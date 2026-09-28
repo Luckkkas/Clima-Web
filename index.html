@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="estilo/style.css">
+
+    <title>Previsão do tempo</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- Pesquisa -->
+        <form id="search">
+
+            <i class="fa-sharp fa-solid fa-location-crosshairs"></i>
+
+            <input
+                type="search"
+                name="city_name"
+                id="city_name"
+                placeholder="Buscar cidade">
+
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </form>
+
+
+        <!-- Cidade -->
+        <div id="weather">
+
+            <h1 id="titler"></h1>
+
+        </div>
+
+
+        <!-- Alerta -->
+        <div id="alert"></div>
+
+
+        <!-- Informações principais -->
+        <div id="infos">
+
+            <div id="tempo">
+
+                <img
+                    src=""
+                    alt="">
+
+            </div>
+
+
+            <div>
+
+                <p id="temp_value">
+                    <sup>C°</sup>
+                </p>
+
+                <p id="temp_description"></p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Outras informações -->
+        <div id="other_infos">
+
+
+            <!-- Temperatura máxima -->
+            <div class="infos">
+
+                <i
+                    id="temp_max_icon"
+                    class="fa-solid fa-temperature-three-quarters">
+                </i>
+
+                <h2>
+                    Temp. max
+                </h2>
+
+                <p id="Temp_max">
+                    <sup>C°</sup>
+                </p>
+
+            </div>
+
+
+            <!-- Temperatura mínima -->
+            <div class="infos">
+
+                <i
+                    id="temp_min_icon"
+                    class="fa-solid fa-temperature-low">
+                </i>
+
+                <h2>
+                    Temp. min
+                </h2>
+
+                <p id="Temp_min">
+                    <sup>C°</sup>
+                </p>
+
+            </div>
+
+
+            <!-- Umidade -->
+            <div class="infos">
+
+                <i
+                    id="humidity_icon"
+                    class="fa-solid fa-droplet">
+                </i>
+
+                <h2>
+                    Umidade
+                </h2>
+
+                <p id="humidity"></p>
+
+            </div>
+
+
+            <!-- Vento -->
+            <div class="infos">
+
+                <i
+                    id="wind_icon"
+                    class="fa-solid fa-wind">
+                </i>
+
+                <h2>
+                    Vento
+                </h2>
+
+                <p id="wind"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
