@@ -4,7 +4,7 @@ Um site de previsão do tempo desenvolvido para praticar HTML, CSS e JavaScript.
 
 📌 Sobre o projeto
 
-O Weather App permite pesquisar uma cidade e visualizar informações sobre o clima em tempo real, utilizando a OpenWeather API.
+O ClimaWeb permite pesquisar uma cidade e visualizar informações sobre o clima em tempo real, utilizando a OpenWeather API.
 
 ✨ Funcionalidades
 
