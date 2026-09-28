@@ -1,4 +1,4 @@
-🌤️ Weather App
+🌤️ ClimaWeb
 
 Um site de previsão do tempo desenvolvido para praticar HTML, CSS e JavaScript.
 
