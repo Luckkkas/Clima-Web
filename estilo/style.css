@@ -33,10 +33,11 @@ body {
     justify-content: center;
 
     background: linear-gradient(
-        180deg,
-        #b31217,
-        #e52d27
+        180deg, 
+        #3252e5, 
+        #080a0e9e
     );
+        
 
     padding: 20px;
 }
