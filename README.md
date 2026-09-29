@@ -1,10 +1,10 @@
-🌤️ weather-app
+🌤️ Clima-Web
 
 Um site de previsão do tempo desenvolvido para praticar HTML, CSS e JavaScript.
 
 📌 Sobre o projeto
 
-O weather-app permite pesquisar uma cidade e visualizar informações sobre o clima em tempo real, utilizando a OpenWeather API.
+O Clima-Web permite pesquisar uma cidade e visualizar informações sobre o clima em tempo real, utilizando a OpenWeather API.
 
 ✨ Funcionalidades
 
@@ -29,7 +29,7 @@ O weather-app permite pesquisar uma cidade e visualizar informações sobre o cl
 
 📂 Estrutura do projeto
 
-weather-app/
+Clima-Web/
 │
 ├── index.html
 │
